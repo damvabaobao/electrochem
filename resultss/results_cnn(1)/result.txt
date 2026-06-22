@@ -1,0 +1,10 @@
+               precision    recall  f1-score   support
+
+ascorbic_acid       0.97      0.96      0.97       384
+     dopamine       0.91      0.89      0.90       375
+      glucose       0.89      0.92      0.90       392
+    uric_acid       0.98      0.98      0.98       349
+
+     accuracy                           0.94      1500
+    macro avg       0.94      0.94      0.94      1500
+ weighted avg       0.94      0.94      0.94      1500
