@@ -1,0 +1,17 @@
+===== XGBOOST RESULTS =====
+
+Accuracy  : 0.9600
+Precision : 0.9600
+Recall    : 0.9600
+F1 Score  : 0.9600
+
+               precision    recall  f1-score   support
+
+ascorbic_acid       0.99      0.99      0.99       512
+     dopamine       0.93      0.93      0.93       500
+      glucose       0.93      0.93      0.93       522
+    uric_acid       0.99      0.99      0.99       466
+
+     accuracy                           0.96      2000
+    macro avg       0.96      0.96      0.96      2000
+ weighted avg       0.96      0.96      0.96      2000
