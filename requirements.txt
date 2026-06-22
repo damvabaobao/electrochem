@@ -1,0 +1,27 @@
+numpy
+pandas
+scikit-learn
+scipy
+matplotlib
+seaborn
+joblib
+
+PyQt5
+PyQt5-sip
+
+flask
+flask-cors
+requests
+
+openpyxl
+h5py
+
+tqdm
+python-dotenv
+loguru
+
+torch
+torchvision
+pywavelets
+
+venv\Scripts\python.exe -m src.training.train_attention

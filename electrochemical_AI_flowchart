@@ -1,0 +1,54 @@
+digraph Electrochemical_AI_Flowchart {
+	rankdir=TB size=10
+	node [fontname=Arial fontsize=12 shape=box style=rounded]
+	start [label="BẮT ĐẦU" shape=oval]
+	data [label="Thu thập dữ liệu điện hóa
+(CV / DPV / SWV)"]
+	preprocess [label="Tiền xử lý dữ liệu
+- Làm sạch
+- Xử lý nhiễu
+- Chuẩn hóa"]
+	feature [label="Trích xuất đặc trưng
+
+Signal Features
+Nonlinear Features
+Physics Features"]
+	dataset [label="Xây dựng Feature Vector
+Physics-Aware Dataset"]
+	split [label="Chia dữ liệu
+Train / Validation / Test"]
+	xgb [label="XGBoost
+
+Học từ Feature Vector"]
+	cnn [label="CNN (1D-CNN)
+
+Tự động học đặc trưng tín hiệu"]
+	xgb_pred [label="Dự đoán loại chất
+XGBoost"]
+	cnn_pred [label="Dự đoán loại chất
+CNN"]
+	eval [label="Đánh giá mô hình
+
+Accuracy
+Precision
+Recall
+F1-score
+ROC-AUC
+Confusion Matrix"]
+	compare [label="So sánh kết quả
+XGBoost vs CNN"]
+	end [label="KẾT THÚC" shape=oval]
+	start -> data
+	data -> preprocess
+	preprocess -> feature
+	feature -> dataset
+	dataset -> split
+	split -> xgb
+	split -> cnn
+	xgb -> xgb_pred
+	cnn -> cnn_pred
+	xgb_pred -> eval
+	cnn_pred -> eval
+	eval -> compare
+	compare -> end
+}

@@ -1,0 +1,17 @@
+venv/
+__pycache__/
+
+# Data
+data/
+
+# Trained models
+models_save/
+
+# Results
+results/
+results_cnn/
+results_transformer/
+
+# Python
+*.pyc
+.ipynb_checkpoints/
