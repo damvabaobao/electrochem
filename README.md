@@ -170,7 +170,7 @@ Xây dựng nền tảng Electrochemical AI phục vụ nghiên cứu và ứng 
 
 Đảm Phạm
 
-Ngành: Kỹ thuật Điện tử - Viễn thông
+Ngành: Kỹ thuật Điện tử và tin học
 
 Lĩnh vực nghiên cứu:
 
